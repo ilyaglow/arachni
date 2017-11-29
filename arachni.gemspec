@@ -63,6 +63,9 @@ Gem::Specification.new do |s|
 
     s.add_dependency 'childprocess',        '0.5.3'
 
+    # IO Console
+    s.add_dependency 'io-console',          '0.4.6'
+
     # RPC serialization.
     s.add_dependency 'msgpack',             '0.7.0'
 
